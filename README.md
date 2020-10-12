@@ -1,24 +1,9 @@
-# README
+# Data Structures and Algorithms
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+  ## App Notes
+    * To get started with the homepage, minimally we need a controller and a view
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    * `rails g controller Welcome index`
+      - this gives us the controller and view files
+    * replace index.html.erb file with `<h1>Hello, Rails!</h1>`
+      - this gives us something to work with now

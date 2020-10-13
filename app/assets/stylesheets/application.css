@@ -13,3 +13,63 @@
  *= require_tree .
  *= require_self
  */
+
+ .container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .container::before {
+  content: "";
+  background-image: url("https://i.ibb.co/V9VwzcN/code-background.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.50;
+ }
+
+ h1 {
+  position: relative;
+  font-size: 80px;
+  color: black;
+  text-align: center;
+ }
+
+ h2 {
+   position: relative;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 50px;
+ }
+
+ h3 {
+   position: relative;
+   font-family: "Comic Sans MS", cursive, sans-serif;
+   font-size: 20px;
+
+ }
+
+ .outer-video-container {
+  position: relative;
+  display: flex;
+  margin-top: 10em;
+  margin-left: 10em;
+  margin-right: 10em;
+ }
+
+ .inner-video-container {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+ }
+
+ .video {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+ }
